@@ -5,7 +5,6 @@ import sys
 
 
 def process_folder(input_folder, output_folder, segment_length):
-
     try:
         if not os.path.exists(output_folder):
             os.makedirs(output_folder)
